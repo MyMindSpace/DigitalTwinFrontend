@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --page-bg: #F1E7DF; /* sand-50 */
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-[var(--page-bg)] text-gray-900;
+}
